@@ -5,3 +5,5 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     class late_start
     user system
     group system input uhid
+    # jiiov
+    socket fpsensor_socket stream 0777 system system
